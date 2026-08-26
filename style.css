@@ -3296,6 +3296,194 @@ END OF SERVICES CSS
   }
 }
 
+@media (max-width: 480px) {
+
+  .contact-section {
+    padding: 65px 15px;
+  }
+
+  .contact-container {
+    gap: 30px;
+  }
+
+  /* Heading */
+
+  .contact-heading {
+    margin-bottom: 30px;
+  }
+
+  .contact-tag {
+    font-size: 0.65rem;
+    letter-spacing: 1.8px;
+    gap: 8px;
+  }
+
+  .contact-tag span {
+    width: 24px;
+  }
+
+  .contact-heading h2 {
+    font-size: 31px;
+    line-height: 1.12;
+    letter-spacing: -0.5px;
+  }
+
+  .contact-heading p {
+    font-size: 13px;
+    line-height: 1.75;
+  }
+
+  /* Cards */
+
+  .contact-grid {
+    gap: 12px;
+  }
+
+  .contact-card {
+    padding: 17px;
+    gap: 13px;
+    border-radius: 13px;
+  }
+
+  .icon-box {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    font-size: 18px;
+  }
+
+  .card-info span {
+    font-size: 8px;
+    letter-spacing: 1.2px;
+  }
+
+  .card-info h3 {
+    font-size: 13px;
+    line-height: 1.35;
+  }
+
+  .card-info a {
+    font-size: 11px;
+  }
+
+  /* Priority */
+
+  .priority-card {
+    padding: 20px 15px;
+    margin-top: 20px;
+  }
+
+  .priority-icon {
+    width: 58px;
+    height: 58px;
+    font-size: 24px;
+  }
+
+  .priority-content h3 {
+    font-size: 20px;
+  }
+
+  .priority-content p {
+    font-size: 12px;
+    line-height: 1.7;
+  }
+
+  /* Socials */
+
+  .social-links {
+    gap: 15px;
+  }
+
+  .social-links a i {
+    width: 42px;
+    height: 42px;
+    font-size: 18px;
+  }
+
+  .social-links span {
+    font-size: 11px;
+  }
+
+  /* Right section */
+
+  .contact-right {
+    min-height: 280px;
+    border-radius: 20px;
+  }
+}
+
+
+/*=========================================
+VERY SMALL PHONES - 360px
+=========================================*/
+
+@media (max-width: 380px) {
+
+  .contact-section {
+    padding: 55px 12px;
+  }
+
+  .contact-heading h2 {
+    font-size: 27px;
+  }
+
+  .contact-heading p {
+    font-size: 12px;
+  }
+
+  .contact-card {
+    padding: 14px;
+    gap: 10px;
+  }
+
+  .icon-box {
+    width: 43px;
+    height: 43px;
+    min-width: 43px;
+    font-size: 16px;
+  }
+
+  .card-info span {
+    font-size: 7px;
+  }
+
+  .card-info h3 {
+    font-size: 12px;
+  }
+
+  .card-info a {
+    font-size: 10px;
+  }
+
+  .priority-card {
+    padding: 18px 12px;
+  }
+
+  .priority-icon {
+    width: 52px;
+    height: 52px;
+    font-size: 21px;
+  }
+
+  .priority-content h3 {
+    font-size: 18px;
+  }
+
+  .priority-content p {
+    font-size: 11px;
+  }
+
+  .social-links {
+    gap: 12px;
+  }
+
+  .social-links a i {
+    width: 38px;
+    height: 38px;
+    font-size: 16px;
+  }
+}
+
 .why-section {
   padding: 120px 8%;
   background: #f8fbff;
