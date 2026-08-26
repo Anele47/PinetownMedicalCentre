@@ -724,6 +724,103 @@ RESPONSIVE
   }
 }
 
+@media (max-width: 600px) {
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 0 20px;
+  }
+
+  .about-image {
+    min-height: 400px;
+    width: 100%;
+  }
+
+  .about-image img {
+    width: 100%;
+    max-width: 340px;
+    height: auto;
+  }
+
+  .image-blob {
+    width: 280px;
+    height: 340px;
+  }
+
+  .about-text {
+    text-align: center;
+    width: 100%;
+  }
+
+  .about-text h2 {
+    font-size: 2.2rem;
+    line-height: 1.15;
+    margin-bottom: 15px;
+  }
+
+  .doctor-name {
+    border: none;
+    padding: 0;
+    margin-bottom: 15px;
+  }
+
+  .doctor-name h3 {
+    font-size: 1.6rem;
+    line-height: 1.2;
+  }
+
+  .about-paragraphs {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .about-paragraphs p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .about-features {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-top: 25px;
+  }
+
+  .about-feature {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-container {
+    padding: 0 15px;
+  }
+
+  .about-image {
+    min-height: 350px;
+  }
+
+  .about-image img {
+    max-width: 290px;
+  }
+
+  .image-blob {
+    width: 240px;
+    height: 300px;
+  }
+
+  .about-text h2 {
+    font-size: 1.9rem;
+  }
+
+  .doctor-name h3 {
+    font-size: 1.4rem;
+  }
+
+  .about-paragraphs p {
+    font-size: 0.9rem;
+  }
+}
+
 /*====================================
 SCROLL ANIMATIONS
 ====================================*/
